@@ -21,8 +21,6 @@
   </tr>
 </table>
 
-<br/>
-
 <!-- Top Row -->
 <table>
   <tr>
@@ -33,7 +31,7 @@
             <img width="350" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight" />
           </td>
           <td>
-            <img width="245" src="https://leetcard.jacoblin.cool/Aaxhirrr?theme=dark&font=baloo&ext=activity&animation=false&hide=ranking,contest" />
+            <img width="250" src="https://leetcard.jacoblin.cool/Aaxhirrr?theme=dark&font=baloo&ext=activity&animation=false&hide=ranking,contest" />
           </td>
         </tr>
       </table>
