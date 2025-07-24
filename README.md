@@ -18,6 +18,8 @@
 
 [![Aashir's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Aaxhirrr&theme=tokyo-night)](https://github.com/Aaxhirrr)
 
+![Snake gif](https://github.com/Aaxhirrr/Aaxhirrr/blob/output/github-contribution-grid-snake.svg)
+
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/aashir-javed-aj28)
 [![Gmail](https://img.shields.io/badge/-anola133@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:anola133@gmail.com)
