@@ -36,7 +36,6 @@
 </table>
 
 <!-- Spacer -->
-<br>
 
 
 [![Aashir's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Aaxhirrr&theme=tokyo-night)](https://github.com/Aaxhirrr)
