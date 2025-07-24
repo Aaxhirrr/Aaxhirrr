@@ -16,7 +16,7 @@
       <img width="495" src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true&cache_seconds=60&timestamp=forceit" />
     </td>
     <td>
-      <img width="510" src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight&cache_seconds=60&timestamp=streakzone" />
+      <img width="520" src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight&cache_seconds=60&timestamp=streakzone" />
     </td>
   </tr>
 </table>
