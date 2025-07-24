@@ -39,7 +39,7 @@
 
 
 <!-- Custom contribution graph (auto-updated) -->
-<img src="https://raw.githubusercontent.com/Aaxhirrr/Aaxhirrr/output/contribution-graph.svg?cacheBust=contribzone" />
+<img src="https://raw.githubusercontent.com/Aaxhirrr/Aaxhirrr/output/contribution-graph.svg?cacheBust=🔥updateit" width="100%" />
 
 ### 🐍 GitHub Activity Snake
 
