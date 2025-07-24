@@ -33,7 +33,7 @@
             <img width="350" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight" />
           </td>
           <td>
-            <img width="270" src="https://leetcard.jacoblin.cool/Aaxhirrr?theme=dark&font=baloo&ext=activity&animation=false&hide=ranking,contest" />
+            <img width="245" src="https://leetcard.jacoblin.cool/Aaxhirrr?theme=dark&font=baloo&ext=activity&animation=false&hide=ranking,contest" />
           </td>
         </tr>
       </table>
