@@ -9,22 +9,38 @@
 
 <h3>🚀 GitHub Dashboard</h3>
 
+<!-- Top Row -->
 <table>
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Aaxhirrr&theme=tokyonight" />
+      <img width="420" src="https://github-readme-stats.vercel.app/api/wakatime?username=Aaxhirrr&theme=tokyonight" />
     </td>
     <td>
       <table>
         <tr>
           <td>
-            <img width="350" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight" />
+            <img width="300" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight" />
           </td>
           <td>
-            <img width="350" src="https://leetcard.jacoblin.cool/Aaxhirrr?theme=dark&font=baloo&ext=activity&animation=false&hide=ranking,contest" />
+            <img width="225" src="https://leetcard.jacoblin.cool/Aaxhirrr?theme=dark&font=baloo&ext=activity&animation=false&hide=ranking,contest" />
           </td>
         </tr>
       </table>
+    </td>
+  </tr>
+</table>
+
+<!-- Spacer -->
+<br>
+
+<!-- Bottom Row: Streak & Stats SIDE BY SIDE, Equal Widths -->
+<table>
+  <tr>
+    <td>
+      <img width="460" src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight" />
+    </td>
+    <td>
+      <img width="460" src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true" />
     </td>
   </tr>
 </table>
