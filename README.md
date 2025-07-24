@@ -13,10 +13,10 @@
 <table>
   <tr>
     <td>
-      <img width="460" src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true&cache_seconds=60&timestamp=forceit" />
+      <img width="480" src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true&cache_seconds=60&timestamp=forceit" />
     </td>
     <td>
-      <img width="550" src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight&cache_seconds=60&timestamp=streakzone" />
+      <img width="500" src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight&cache_seconds=60&timestamp=streakzone" />
     </td>
   </tr>
 </table>
