@@ -30,7 +30,7 @@
       <img width="330" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight&cache_seconds=60&timestamp=langsnap" />
     </td>
     <td>
-      <img width="250" src="https://leetcard.jacoblin.cool/Aaxhirrr?theme=dark&font=baloo&ext=activity&animation=false&hide=ranking,contest&cache_seconds=60&timestamp=leetflex" />
+<img width="250" src="https://img.shields.io/badge/LeetCode%20Stats-grey?style=for-the-badge&logo=leetcode&logoColor=orange" />
     </td>
   </tr>
 </table>
