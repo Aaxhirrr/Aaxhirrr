@@ -7,7 +7,6 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight)
 
-[![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=Aaxhirrr&theme=tokyonight)](https://wakatime.com/@Aaxhirrr)
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight)
 
