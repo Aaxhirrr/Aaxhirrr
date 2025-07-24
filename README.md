@@ -13,7 +13,7 @@
 <table>
   <tr>
     <td>
-      <img width="420" src="https://github-readme-stats.vercel.app/api/wakatime?username=Aaxhirrr&theme=tokyonight" />
+      <img width="400" src="https://github-readme-stats.vercel.app/api/wakatime?username=Aaxhirrr&theme=tokyonight" />
     </td>
     <td>
       <table>
