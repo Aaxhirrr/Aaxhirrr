@@ -27,7 +27,7 @@
 <table>
   <tr>
     <td>
-      <img width="330" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight&cache_seconds=60&timestamp=langsnap" />
+      <img width="325" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight&cache_seconds=60&timestamp=langsnap" />
     </td>
     <td>
 <img width="250" src="https://img.shields.io/badge/LeetCode%20Stats-grey?style=for-the-badge&logo=leetcode&logoColor=orange" />
