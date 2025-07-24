@@ -7,11 +7,12 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight)
 
+[![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=Aaxhirrr&theme=tokyonight)](https://wakatime.com/@Aaxhirrr)
+
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight)
 
 [![Aashir's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Aaxhirrr&theme=tokyo-night)](https://github.com/Aaxhirrr)
 
-[![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=Aaxhirrr&theme=tokyonight)](https://wakatime.com/@Aaxhirrr)
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/aashir-javed-aj28)
 [![Gmail](https://img.shields.io/badge/-anola133@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:anola133@gmail.com)
