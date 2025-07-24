@@ -8,6 +8,9 @@
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight)
 
+[![Aashir's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Aaxhirrr&theme=tokyo-night)](https://github.com/Aaxhirrr)
+
+
 ---
 <!--
 **Aaxhirrr/Aaxhirrr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
