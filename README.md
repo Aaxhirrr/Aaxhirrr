@@ -13,6 +13,9 @@
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight)
 
+<!-- ![LeetCode Stats](https://leetcard.jacoblin.cool/Aaxhirrr?theme=dark&font=baloo&ext=contest) -->
+
+
 [![Aashir's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Aaxhirrr&theme=tokyo-night)](https://github.com/Aaxhirrr)
 
 
