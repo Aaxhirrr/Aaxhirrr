@@ -13,10 +13,10 @@
 <table>
   <tr>
     <td>
-      <img width="500" src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true" />
+      <img width="520" src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true" />
     </td>
     <td>
-      <img width="500" src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight" />
+      <img width="520" src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight" />
     </td>
   </tr>
 </table>
@@ -27,7 +27,7 @@
       <table>
         <tr>
           <td>
-            <img width="375" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight" />
+            <img width="350" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight" />
           </td>
           <td>
             <img width="250" src="https://leetcard.jacoblin.cool/Aaxhirrr?theme=dark&font=baloo&ext=activity&animation=false&hide=ranking,contest" />
