@@ -44,7 +44,7 @@
 ### 🐍 GitHub Activity Snake
 
 <!-- 🐍 Contribution Snake Animation -->
-<img src="https://raw.githubusercontent.com/Aaxhirrr/Aaxhirrr/output/github-contribution-grid-snake.svg?cacheBust=snakezone" width="100%" />
+<img src="https://raw.githubusercontent.com/Aaxhirrr/Aaxhirrr/output/github-contribution-grid-snake-dark.svg?cacheBust=snakezone" width="100%" />
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/aashir-javed-aj28)
 [![Gmail](https://img.shields.io/badge/-anola133@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:anola133@gmail.com)
