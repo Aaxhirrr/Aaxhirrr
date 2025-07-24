@@ -39,7 +39,7 @@
 
 
 <!-- Custom contribution graph (auto-updated) -->
-[![Aashirrr's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Aaxhirrr&theme=tokyo-night)](https://github.com/Aaxhirrr)
+[![Aashirrr's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Aaxhirrr&theme=tokyo-night&cache_bust=0724aashirupdate)](https://github.com/Aaxhirrr)
 
 ### 🐍 GitHub Activity Snake
 
