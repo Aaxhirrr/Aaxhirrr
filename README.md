@@ -9,12 +9,23 @@
 
 <h3>🚀 GitHub Dashboard</h3>
 
-<!-- Top Row -->
+<!-- Bottom Row: Streak & Stats SIDE BY SIDE, Equal Widths -->
 <table>
   <tr>
     <td>
-      <img width="500" src="https://github-readme-stats.vercel.app/api/wakatime?username=Aaxhirrr&theme=tokyonight" />
+      <img width="460" src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight" />
     </td>
+    <td>
+      <img width="460" src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true" />
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- Top Row -->
+<table>
+  <tr>
     <td>
       <table>
         <tr>
@@ -33,19 +44,6 @@
 <!-- Spacer -->
 <br>
 
-<!-- Bottom Row: Streak & Stats SIDE BY SIDE, Equal Widths -->
-<table>
-  <tr>
-    <td>
-      <img width="460" src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight" />
-    </td>
-    <td>
-      <img width="460" src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true" />
-    </td>
-  </tr>
-</table>
-
-<br/>
 
 [![Aashir's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Aaxhirrr&theme=tokyo-night)](https://github.com/Aaxhirrr)
 
