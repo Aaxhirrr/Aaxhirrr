@@ -9,15 +9,14 @@
 
 <h3>🚀 GitHub Dashboard</h3>
 
-<!-- Bottom Row: Streak & Stats SIDE BY SIDE, Equal Widths -->
+<!-- Bottom Row: Stats & Streak SIDE BY SIDE, Equal Widths (Swapped) -->
 <table>
   <tr>
     <td>
-            <img width="460" src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true" />
+      <img width="460" src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true" />
     </td>
     <td>
-            <img width="460" src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight" />
-
+      <img width="460" src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight" />
     </td>
   </tr>
 </table>
