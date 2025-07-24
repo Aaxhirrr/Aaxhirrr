@@ -7,14 +7,26 @@
 ![Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 
-### 🚀 GitHub Stats
-![Aashir's GitHub stats](https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true)
+<h3>🚀 GitHub Stats</h3>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight)
-
-[![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=Aaxhirrr&theme=tokyonight)](https://wakatime.com/@Aaxhirrr)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight)
+<table>
+  <tr>
+    <td>
+      <img width = "400" src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true" />
+    </td>
+    <td>
+      <img width="315" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img width = "400" src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Aaxhirrr&theme=tokyonight" />
+    </td>
+  </tr>
+</table>
 
 <!-- ![LeetCode Stats](https://leetcard.jacoblin.cool/Aaxhirrr?theme=dark&font=baloo&ext=contest) -->
 
