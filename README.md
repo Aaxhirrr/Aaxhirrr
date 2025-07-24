@@ -1,5 +1,5 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=Aaxhirrr&color=blueviolet)
-![Commit Goal](https://img.shields.io/badge/2025%20Commit%20Goal-✅%20117%2F365-blue)
+![Commit Goal](https://img.shields.io/badge/2025%20Commit%20Goal-✅%20130%2F365-blue)
 
 ## Hi 👋   
 ![Now Hacking](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=⚡+Shipping+GenAI+Infra+...;🧠+Tuning+LLMs+%2B+RAG+Pipelines...;☁️+GPU+Workflows+on+SLURM+Like+Magic;🔬+Biomedical+Knowledge+Graphs+FTW...;🌌+AGI+Dreams+Don't+Sleep...)
@@ -16,7 +16,7 @@
 <img width="495" src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true&cache_seconds=1800" />
     </td>
     <td>
-<img width="520" src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight&date_format=M%20j%5B%2C%20Y&fire=DD2727&ring=7B2CBF&currStreakLabel=DD2727&sideNums=7B2CBF&hide_border=true" />
+<img width="520" src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight&date_format=M%20j,%20Y&fire=DD2727&ring=7B2CBF&currStreakLabel=DD2727&sideNums=7B2CBF&hide_border=true" />
     </td>
   </tr>
 </table>
