@@ -47,15 +47,6 @@
 
 <br/>
 
-<!-- Streak and GitHub Stats go below as a wide stack -->
-
-<div align="center">
-  <img width="600" src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight" />
-  <br/><br/>
-  <img width="500" src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true" />
-</div>
-
-
 [![Aashir's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Aaxhirrr&theme=tokyo-night)](https://github.com/Aaxhirrr)
 
 ### 🐍 GitHub Activity Snake
