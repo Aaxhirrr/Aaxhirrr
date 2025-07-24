@@ -1,5 +1,5 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=Aaxhirrr&color=blueviolet)
-![Commit Goal](https://img.shields.io/badge/2025%20Commit%20Goal-✅%2040%2F365-blue)
+![Commit Goal](https://img.shields.io/badge/2025%20Commit%20Goal-✅%2067%2F365-blue)
 
 ## Hi there 👋                             
 ![Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
