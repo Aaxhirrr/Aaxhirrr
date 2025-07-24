@@ -28,7 +28,7 @@
 <table>
   <tr>
     <td>
-      <img width="350" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight&cache_seconds=60&timestamp=langsnap" />
+      <img width="300" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight&cache_seconds=60&timestamp=langsnap" />
     </td>
     <td>
       <img width="250" src="https://leetcard.jacoblin.cool/Aaxhirrr?theme=dark&font=baloo&ext=activity&animation=false&hide=ranking,contest&cache_seconds=60&timestamp=leetflex" />
