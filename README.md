@@ -9,33 +9,32 @@
 
 <h3>🚀 GitHub Dashboard</h3>
 
-<!-- Bottom Row: Stats & Streak SIDE BY SIDE, Equal Widths (Swapped) -->
+<!-- Bottom Row: Stats & Streak SIDE BY SIDE -->
 <table>
   <tr>
     <td>
-      <img width="520" src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true" />
+      <img width="460" src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true&cache_seconds=60&timestamp=forceit" />
     </td>
     <td>
-      <img width="550" src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight" />
+            <img width="550" src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight&cache_seconds=60&timestamp=streakzone" />
     </td>
   </tr>
 </table>
 
-<!-- Top Row -->
+<!-- Spacer -->
+<br/>
+
+<!-- Top Row: Langs + LeetCode SIDE BY SIDE -->
+<table>
   <tr>
     <td>
-      <table>
-        <tr>
-          <td>
-            <img width="350" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight" />
-          </td>
-          <td>
-            <img width="250" src="https://leetcard.jacoblin.cool/Aaxhirrr?theme=dark&font=baloo&ext=activity&animation=false&hide=ranking,contest" />
-          </td>
-        </tr>
-      </table>
+      <img width="350" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight&cache_seconds=60&timestamp=langsnap" />
+    </td>
+    <td>
+      <img width="250" src="https://leetcard.jacoblin.cool/Aaxhirrr?theme=dark&font=baloo&ext=activity&animation=false&hide=ranking,contest&cache_seconds=60&timestamp=leetflex" />
     </td>
   </tr>
+</table>
 
 <!-- Spacer -->
 <br>
