@@ -1,4 +1,5 @@
-## Hi there 👋 ![Profile Views](https://komarev.com/ghpvc/?username=Aaxhirrr&color=blueviolet)
+![Profile Views](https://komarev.com/ghpvc/?username=Aaxhirrr&color=blueviolet)
+## Hi there 👋                             
 
 ### 🚀 GitHub Stats
 
