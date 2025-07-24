@@ -22,7 +22,6 @@
 </table>
 
 <!-- Spacer -->
-<br/>
 
 <!-- Top Row: Langs + LeetCode SIDE BY SIDE -->
 <table>
