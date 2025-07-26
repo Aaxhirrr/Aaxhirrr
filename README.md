@@ -14,7 +14,7 @@
 <table>
   <tr>
     <td>
-<img width="495" src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&cache_seconds=1800&cache_bust=0726aashir1" />
+<img src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&cache_seconds=3600&cache_bust=0726nightforce" />
     </td>
     <td>
 <img width="520" src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight&date_format=M%20j,%20Y&fire=DD2727&ring=7B2CBF&currStreakLabel=DD2727&sideNums=7B2CBF&hide_border=true&cache_bust=0726aashir2" />
