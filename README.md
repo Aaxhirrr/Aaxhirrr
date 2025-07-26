@@ -14,13 +14,15 @@
 <table>
   <tr>
     <td>
-      <img width="495" src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&cache_seconds=1800&custom_title=GitHub+Stats" />
+<img width="495" src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&cache_seconds=1800&cache_bust=0726aashir1" />
     </td>
     <td>
-      <img width="520" src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight&date_format=M%20j,%20Y&fire=DD2727&ring=7B2CBF&currStreakLabel=DD2727&sideNums=7B2CBF&hide_border=true" />
+<img width="520" src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight&date_format=M%20j,%20Y&fire=DD2727&ring=7B2CBF&currStreakLabel=DD2727&sideNums=7B2CBF&hide_border=true&cache_bust=0726aashir2" />
     </td>
   </tr>
 </table>
+
+
 
 ---
 
@@ -29,7 +31,7 @@
 <table>
   <tr>
     <td>
-      <img width="325" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight&cache_seconds=1800" />
+<img width="325" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight&cache_seconds=1800&cache_bust=0726aashir3" />
     </td>
     <td>
       <!-- Optional: Replace this with a real LeetCode badge or progress chart -->
