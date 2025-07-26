@@ -18,10 +18,10 @@ I'm Aashir Javed, a junior at Arizona State University (ASU) majoring in Compute
 <table>
   <tr>
     <td>
-<img src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&cache_seconds=3600&cache_bust=0726nightforce" />
+<img src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&cache_seconds=3600&cache_bust=0726-nightforce" />
     </td>
     <td>
-<img width="520" src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight&date_format=M%20j,%20Y&fire=DD2727&ring=7B2CBF&currStreakLabel=DD2727&sideNums=7B2CBF&hide_border=true&cache_bust=0726aashir2" />
+<img width="520" src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight&date_format=M%20j,%20Y&fire=DD2727&ring=7B2CBF&currStreakLabel=DD2727&sideNums=7B2CBF&hide_border=true&cache_bust=0726-aashir2" />
     </td>
   </tr>
 </table>
@@ -35,7 +35,7 @@ I'm Aashir Javed, a junior at Arizona State University (ASU) majoring in Compute
 <table>
   <tr>
     <td>
-<img width="325" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight&cache_seconds=1800&cache_bust=0726aashir3" />
+<img width="325" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight&cache_seconds=1800&cache_bust=0726-aashir3" />
     </td>
     <td>
       <!-- Optional: Replace this with a real LeetCode badge or progress chart -->
@@ -48,7 +48,7 @@ I'm Aashir Javed, a junior at Arizona State University (ASU) majoring in Compute
 
 ### 📊 Contribution Activity Graph
 
-[![Aaxhirrr's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Aaxhirrr&theme=tokyo-night&area=true&hide_border=true&custom_title=Aaxhirrr's+Contribution+Activity+Graph&cache_bust=0726-fix1)](https://github.com/Aaxhirrr)
+[![Aaxhirrr's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Aaxhirrr&theme=tokyo-night&area=true&hide_border=true&custom_title=Aaxhirrr's+Contribution+Activity+Graph&cache_bust=0726-fix2)](https://github.com/Aaxhirrr)
 
 ---
 
