@@ -1,6 +1,6 @@
 <!-- Profile Views & Commit Goal -->
 ![Profile Views](https://komarev.com/ghpvc/?username=Aaxhirrr&color=blueviolet)
-![Commit Goal](https://img.shields.io/badge/2025%20Commit%20Goal-✅%20509%2F1000-blue)
+![Commit Goal](https://img.shields.io/badge/2025%20Commit%20Goal-✅%20294%2F1000-blue)
 
 ## Hi 👋   
 ![Now Hacking](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=⚡+Shipping+GenAI+Infra+...;🧠+Tuning+LLMs+%2B+RAG+Pipelines...;☁️+GPU+Workflows+on+SLURM+Like+Magic;🔬+Biomedical+Knowledge+Graphs+FTW...;🌌+AGI+Dreams+Don't+Sleep...)
