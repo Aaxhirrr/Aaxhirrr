@@ -44,7 +44,7 @@
 
 ### 📊 Contribution Activity Graph
 
-[![Aashirrr's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Aaxhirrr&theme=tokyo-night&area=true&hide_border=true&custom_title=Contribution+Activity&cache_bust=TRUE)](https://github.com/Aaxhirrr)
+[![Aaxhirrr's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Aaxhirrr&theme=tokyo-night&area=true&hide_border=true&custom_title=Aaxhirrr's+Contribution+Activity+Graph&cache_bust=0726-fix1)](https://github.com/Aaxhirrr)
 
 ---
 
