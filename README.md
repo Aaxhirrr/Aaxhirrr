@@ -9,7 +9,7 @@
 
 ### 🧑‍💻 About Me
 
-I'm Aashir Javed — a junior at Arizona State University (ASU) majoring in Computer Science. I’m passionate about AI infrastructure, neural systems, and building robust GenAI workflows.
+I'm Aashir Javed, a junior at Arizona State University (ASU) majoring in Computer Science. I’m passionate about AI infrastructure, neural systems, and building robust GenAI workflows.
 
 ---
 
