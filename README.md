@@ -7,6 +7,10 @@
 
 ![Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
+### 🧑‍💻 About Me
+
+I'm Aashir Javed — a junior at Arizona State University (ASU) majoring in Computer Science. I’m passionate about AI infrastructure, neural systems, and building robust GenAI workflows.
+
 ---
 
 ### 🚀 GitHub Dashboard
