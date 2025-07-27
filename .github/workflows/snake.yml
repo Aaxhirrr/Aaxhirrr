@@ -21,9 +21,8 @@ jobs:
           outputs: |
             ./output/github-contribution-grid-snake.svg
             ./output/github-contribution-grid-snake-dark.svg
-          snake_format: svg
-          color_snake: '#00FFAA'
-          color_dots: '#444444, #333333, #222222, #1a1a1a, #111111'
+      env:
+        SNK_THEME: dark  # <- this forces true dark background
 
       - name: Deploy Snake to Output Branch
         uses: crazy-max/ghaction-github-pages@v3
