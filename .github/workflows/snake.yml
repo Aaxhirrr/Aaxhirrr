@@ -10,18 +10,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Clean old SVGs
+        run: |
+          rm -rf output
+          mkdir output
+
       - uses: Platane/snk@v3
         with:
           github_user_name: Aaxhirrr
           outputs: |
             ./output/github-contribution-grid-snake.svg
             ./output/github-contribution-grid-snake-dark.svg
-          # force dark mode
           snake_format: svg
           color_snake: '#00FFAA'
           color_dots: '#444444, #333333, #222222, #1a1a1a, #111111'
 
-      - uses: crazy-max/ghaction-github-pages@v3
+      - name: Deploy Snake to Output Branch
+        uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: output
