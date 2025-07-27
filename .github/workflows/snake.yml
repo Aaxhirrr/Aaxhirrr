@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate Snake (Dark Only)
 
 on:
   schedule:
@@ -10,18 +10,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate Snake SVG
+      - name: Clean old SVGs
+        run: |
+          rm -rf output
+          mkdir output
+
+      - name: Generate dark-only snake
         uses: Platane/snk@v3
         with:
           github_user_name: Aaxhirrr
           outputs: |
             ./output/github-contribution-grid-snake-dark.svg
-          args: >
-            --snake-color '#00FF00'
-            --dot-color '#66CCFF,#00FFAA,#AA00FF,#FF00AA,#3300FF'
-            --output-format svg
+        env:
+          SNK_THEME: dark
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy snake
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
