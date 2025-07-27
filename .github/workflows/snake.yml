@@ -10,23 +10,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clean old SVGs
-        run: |
-          rm -rf output
-          mkdir output
-
-      - name: Generate custom snake with AGI colors
-        uses: Platane/snk@v3
+      - uses: Platane/snk@v3
         with:
           github_user_name: Aaxhirrr
           outputs: |
+            ./output/github-contribution-grid-snake.svg
             ./output/github-contribution-grid-snake-dark.svg
-          color_snake: '#00FF00' # neon green
-          color_dots: '#66CCFF,#00FFAA,#AA00FF,#FF00AA,#3300FF' # AGI palette
-        env:
-          SNK_THEME: dark
+          snake_format: svg
+          color_snake: '#00FFAA'  # neon green
+          color_dots: '#00ffff, #00cc99, #ff00ff, #9900ff'  # AGI-like colors
 
-      -       - name: Inject dark purple cyber grid and glow effect
+      - name: Inject dark purple cyber grid and glow effect
         run: |
           SVG=output/github-contribution-grid-snake-dark.svg
           TMP=output/tmp.svg
@@ -44,15 +38,12 @@ jobs:
           echo '</defs>' >> $TMP
           echo '<rect width="100%" height="100%" fill="#1a0033" />' >> $TMP
 
-          # copy original paths but inject glow filter
           grep "<path" $SVG | sed 's/<path /<path filter="url(#glow)" /' >> $TMP
 
           echo '</svg>' >> $TMP
           mv $TMP $SVG
 
-
-      - name: Deploy Snake to Output Branch
-        uses: crazy-max/ghaction-github-pages@v3
+      - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: output
