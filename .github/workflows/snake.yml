@@ -14,7 +14,6 @@ jobs:
         with:
           github_user_name: Aaxhirrr
           outputs: |
-            ./output/github-contribution-grid-snake.svg
             ./output/github-contribution-grid-snake-dark.svg
 
       - name: Commit & Push Snake to Output Branch
