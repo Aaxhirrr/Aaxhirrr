@@ -15,14 +15,15 @@ jobs:
           rm -rf output
           mkdir output
 
-      - uses: Platane/snk@v3
+      - name: Generate Snake SVGs
+        uses: Platane/snk@v3
         with:
           github_user_name: Aaxhirrr
           outputs: |
             ./output/github-contribution-grid-snake.svg
             ./output/github-contribution-grid-snake-dark.svg
-      env:
-        SNK_THEME: dark  # <- this forces true dark background
+        env:
+          SNK_THEME: dark
 
       - name: Deploy Snake to Output Branch
         uses: crazy-max/ghaction-github-pages@v3
