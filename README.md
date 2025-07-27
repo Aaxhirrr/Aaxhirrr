@@ -35,7 +35,7 @@ I'm Aashir Javed, a junior at Arizona State University (ASU) majoring in Compute
 <table>
   <tr>
     <td>
-<img width="325" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight&cache_seconds=1800&cache_bust=0726-aashir3" />
+<img width="325" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight&cache_seconds=1800&cache_bust=0726-aashir5" />
     </td>
     <td>
       <!-- Optional: Replace this with a real LeetCode badge or progress chart -->
@@ -54,7 +54,7 @@ I'm Aashir Javed, a junior at Arizona State University (ASU) majoring in Compute
 
 ### 🐍 GitHub Activity Snake
 
-<img src="https://raw.githubusercontent.com/Aaxhirrr/Aaxhirrr/output/github-contribution-grid-snake-dark.svg?cacheBust=0726night" width="100%" />
+<img src="https://raw.githubusercontent.com/Aaxhirrr/Aaxhirrr/output/github-contribution-grid-snake-dark.svg?cacheBust=0726-night2" width="100%" />
 
 ---
 
