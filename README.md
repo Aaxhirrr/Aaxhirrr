@@ -54,7 +54,7 @@ I'm Aashir Javed, a junior at Arizona State University (ASU) majoring in Compute
 
 ### 🐍 GitHub Activity Snake
 
-<img src="https://raw.githubusercontent.com/Aaxhirrr/Aaxhirrr/output/github-contribution-grid-snake-dark.svg?cacheBust=0727-neonvibe" width="100%" />
+<img src="https://raw.githubusercontent.com/Aaxhirrr/Aaxhirrr/output/github-contribution-grid-snake-dark.svg?cacheBust=0727-absolute" width="100%" />
 
 ---
 
