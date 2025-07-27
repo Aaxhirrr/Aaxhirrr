@@ -1,4 +1,4 @@
-name: Generate Snake (Dark Only)
+name: Generate Custom Neon Snake
 
 on:
   schedule:
@@ -15,16 +15,40 @@ jobs:
           rm -rf output
           mkdir output
 
-      - name: Generate dark-only snake
+      - name: Generate custom snake with AGI colors
         uses: Platane/snk@v3
         with:
           github_user_name: Aaxhirrr
           outputs: |
             ./output/github-contribution-grid-snake-dark.svg
+          color_snake: '#00FF00' # neon green
+          color_dots: '#66CCFF,#00FFAA,#AA00FF,#FF00AA,#3300FF' # AGI palette
         env:
           SNK_THEME: dark
 
-      - name: Deploy snake
+      - name: Inject dark purple cyber grid and glow effect
+        run: |
+          SVG=output/github-contribution-grid-snake-dark.svg
+          TMP=output/tmp.svg
+
+          echo '<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">' > $TMP
+          echo '<defs>' >> $TMP
+          echo '<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">' >> $TMP
+          echo '  <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />' >> $TMP
+          echo '  <feMerge>' >> $TMP
+          echo '    <feMergeNode in="blur" />' >> $TMP
+          echo '    <feMergeNode in="SourceGraphic" />' >> $TMP
+          echo '  </feMerge>' >> $TMP
+          echo '</filter>' >> $TMP
+          echo '</defs>' >> $TMP
+          echo '<rect width="100%" height="100%" fill="#1a0033" />' >> $TMP
+
+          tail -n +2 $SVG | sed 's/<path /<path filter="url(#glow)" /' >> $TMP
+          echo '</svg>' >> $TMP
+
+          mv $TMP $SVG
+
+      - name: Deploy Snake to Output Branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
