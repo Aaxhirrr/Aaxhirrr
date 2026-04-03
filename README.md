@@ -20,6 +20,8 @@ Also contribute to open-source from time to time ;)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Aaxhirrr&theme=tokyonight&hide_border=true)
 
+![Metrics](https://raw.githubusercontent.com/Aaxhirrr/Aaxhirrr/main/github-metrics.svg)
+
 ---
 
 ## 🧠 LeetCode
