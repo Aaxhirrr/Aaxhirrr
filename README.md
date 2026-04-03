@@ -1,44 +1,54 @@
 <!-- Profile Views & Commit Goal -->
 ![Profile Views](https://komarev.com/ghpvc/?username=Aaxhirrr&color=blueviolet)
-![Commit Goal](https://img.shields.io/badge/2025%20Commit%20Goal-✅%20838%2F1000-blue)
+![Commit Goal](https://img.shields.io/badge/2026%20Commit%20Goal-🚀%20In%20Progress-blueviolet)
 
-## Hi 👋   
-![Now Hacking](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=⚡+Shipping+GenAI+Infra+...;🧠+Tuning+LLMs+%2B+RAG+Pipelines...;☁️+GPU+Workflows+on+SLURM+Like+Magic;🔬+Biomedical+Knowledge+Graphs+FTW...;🌌+AGI+Dreams+Don't+Sleep...)
+## Hi 👋
+
+![Now Hacking](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F7FF&center=true&vCenter=true&width=650&lines=⚡+Shipping+GenAI+Infra+in+2026...;🧠+Tuning+LLMs+%2B+RAG+Pipelines...;☁️+Running+GPU+Workflows+on+SLURM...;🔬+Exploring+Biomedical+Knowledge+Graphs...;🌌+Building+Toward+AGI+Dreams...)
 
 ![Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ### 🧑‍💻 About Me
 
-I'm Aashir Javed, a student at Arizona State University (ASU) majoring in Computer Science. I’m passionate about AI infrastructure, neural systems, and building robust GenAI workflows. I also do open source from time to time ;)
+I'm **Aashir Javed**, a Computer Science student at **Arizona State University (ASU)**.  
+I’m passionate about **AI infrastructure, neural systems, LLM systems, RAG pipelines, and scalable GenAI workflows**.  
+I also enjoy building in open source and experimenting with systems that sit at the intersection of **research + real-world deployment**.
 
 ---
 
-### 🚀 GitHub Dashboard
+## 🚀 GitHub Dashboard
 
 <table>
   <tr>
     <td>
-<!--  /<img src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&cache_seconds=3600&cache_bust=0726-nightforce" />-->
+      <img
+        src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true"
+        alt="GitHub Stats"
+      />
     </td>
     <td>
-<img width="520" src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight&date_format=M%20j,%20Y&fire=DD2727&ring=7B2CBF&currStreakLabel=DD2727&sideNums=7B2CBF&hide_border=true&cache_bust=076-aashir2" />
+      <img
+        src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight&hide_border=true"
+        alt="GitHub Streak"
+      />
     </td>
   </tr>
 </table>
 
-
-
 ---
 
-### 🧠 Languages & LeetCode
+## 🧠 Languages & LeetCode
 
 <table>
   <tr>
     <td>
-<img width="325" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight&cache_seconds=1800&cache_bust=0726-aashir5" />
+      <img
+        width="325"
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight&hide_border=true"
+        alt="Top Languages"
+      />
     </td>
     <td>
-      <!-- Optional: Replace this with a real LeetCode badge or progress chart -->
       <img src="https://img.shields.io/badge/LeetCode%20Stats-Loading...-darkorange?style=for-the-badge&logo=leetcode&logoColor=white" />
     </td>
   </tr>
@@ -46,19 +56,19 @@ I'm Aashir Javed, a student at Arizona State University (ASU) majoring in Comput
 
 ---
 
-### 📊 Contribution Activity Graph
+## 📊 Contribution Activity Graph
 
-[![Aaxhirrr's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Aaxhirrr&theme=tokyo-night&area=true&hide_border=true&custom_title=Aaxhirrr's+Contribution+Activity+Graph&cache_bust=0726-fix2)](https://github.com/Aaxhirrr)
-
----
-
-### 🐍 GitHub Activity Snake
-
-<img src="https://raw.githubusercontent.com/Aaxhirrr/Aaxhirrr/output/github-contribution-grid-snake-dark.svg?cacheBust=0727-finaldark" width="100%" />
+[![Aaxhirrr's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Aaxhirrr&theme=tokyo-night&area=true&hide_border=true&custom_title=Aaxhirrr's%20Contribution%20Activity%20Graph)](https://github.com/Aaxhirrr)
 
 ---
 
-### 🔗 Connect With Me
+## 🐍 2026 Contribution Snake
+
+<img src="https://raw.githubusercontent.com/Aaxhirrr/Aaxhirrr/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub Contribution Snake" />
+
+---
+
+## 🔗 Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/aashir-javed-aj28)
 [![Gmail](https://img.shields.io/badge/-anola133@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:anola133@gmail.com)
