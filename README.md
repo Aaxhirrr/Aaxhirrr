@@ -18,21 +18,17 @@ I also enjoy building in open source and experimenting with systems that sit at 
 
 ## 🚀 GitHub Dashboard
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true)
-
 ![GitHub Streak](https://streak-stats.demolab.com?user=Aaxhirrr&theme=tokyonight&hide_border=true)
 
 ---
 
-## 🧠 Languages & LeetCode
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight&hide_border=true)
+## 🧠 LeetCode
 
 ![LeetCode Stats](https://img.shields.io/badge/LeetCode%20Stats-Loading...-darkorange?style=for-the-badge&logo=leetcode&logoColor=white)
 
 ---
 
-## 📊 Live Contribution Overview
+## 📊 Live Contribution Overview 
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Aaxhirrr&theme=tokyonight)
 
