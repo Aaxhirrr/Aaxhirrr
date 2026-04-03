@@ -12,8 +12,7 @@
 
 I'm **Aashir Javed**, a Computer Science student at **Arizona State University (ASU)**.  
 I’m passionate about **AI infrastructure, neural systems, LLM systems, RAG pipelines, and scalable GenAI workflows**.  
-I also enjoy building in open source and experimenting with systems that sit at the intersection of **research + real-world deployment**.
-
+Also contribute to open-source from time to time ;)
 ---
 
 ## 🚀 GitHub Dashboard
