@@ -18,41 +18,17 @@ I also enjoy building in open source and experimenting with systems that sit at 
 
 ## 🚀 GitHub Dashboard
 
-<table>
-  <tr>
-    <td>
-      <img
-        src="https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true"
-        alt="GitHub Stats"
-      />
-    </td>
-    <td>
-      <img
-        src="https://github-readme-streak-stats.herokuapp.com?user=Aaxhirrr&theme=tokyonight&hide_border=true"
-        alt="GitHub Streak"
-      />
-    </td>
-  </tr>
-</table>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=Aaxhirrr&theme=tokyonight&hide_border=true)
 
 ---
 
 ## 🧠 Languages & LeetCode
 
-<table>
-  <tr>
-    <td>
-      <img
-        width="325"
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight&hide_border=true"
-        alt="Top Languages"
-      />
-    </td>
-    <td>
-      <img src="https://img.shields.io/badge/LeetCode%20Stats-Loading...-darkorange?style=for-the-badge&logo=leetcode&logoColor=white" />
-    </td>
-  </tr>
-</table>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Aaxhirrr&layout=compact&theme=tokyonight&hide_border=true)
+
+![LeetCode Stats](https://img.shields.io/badge/LeetCode%20Stats-Loading...-darkorange?style=for-the-badge&logo=leetcode&logoColor=white)
 
 ---
 
@@ -64,7 +40,7 @@ I also enjoy building in open source and experimenting with systems that sit at 
 
 ## 🐍 2026 Contribution Snake
 
-<img src="https://raw.githubusercontent.com/Aaxhirrr/Aaxhirrr/output/github-contribution-grid-snake-2026-dark.svg" width="100%" alt="GitHub Contribution Snake" />
+![GitHub Contribution Snake](https://raw.githubusercontent.com/Aaxhirrr/Aaxhirrr/output/github-contribution-grid-snake-2026-dark.svg)
 
 ---
 
