@@ -56,15 +56,15 @@ I also enjoy building in open source and experimenting with systems that sit at 
 
 ---
 
-## 📊 Contribution Activity Graph
+## 📊 Live Contribution Overview
 
-[![Aaxhirrr's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Aaxhirrr&theme=tokyo-night&area=true&hide_border=true&custom_title=Aaxhirrr's%20Contribution%20Activity%20Graph)](https://github.com/Aaxhirrr)
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Aaxhirrr&theme=tokyonight)
 
 ---
 
 ## 🐍 2026 Contribution Snake
 
-<img src="https://raw.githubusercontent.com/Aaxhirrr/Aaxhirrr/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub Contribution Snake" />
+<img src="https://raw.githubusercontent.com/Aaxhirrr/Aaxhirrr/output/github-contribution-grid-snake-2026-dark.svg" width="100%" alt="GitHub Contribution Snake" />
 
 ---
 
