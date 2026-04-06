@@ -12,7 +12,7 @@
 
 I'm **Aashir Javed**, a Computer Science student at **Arizona State University (ASU)**.  
 I’m passionate about **AI infrastructure, neural systems, LLM systems, RAG pipelines, and scalable GenAI workflows**.  
-Also contribute to open-source from time to time, especially for @gemini-cli ;)
+Also contribute to open-source from time to time, especially for gogogle's gemini-cli ;)
 
 ---
 
