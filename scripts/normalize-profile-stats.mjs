@@ -2,7 +2,7 @@ import { writeFile } from "node:fs/promises";
 
 const token = process.env.PROFILE_STATS_TOKEN;
 const username = process.env.PROFILE_STATS_USERNAME ?? "Aaxhirrr";
-const statsPath = "profile/stats.svg";
+const statsPath = "profile/cool-stats.svg";
 const displayedGrade = "A++";
 const now = process.env.PROFILE_STATS_NOW
   ? new Date(process.env.PROFILE_STATS_NOW)
