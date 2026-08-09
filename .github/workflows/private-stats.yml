@@ -1,0 +1,51 @@
+name: Update private-inclusive GitHub stats
+
+on:
+  schedule:
+    - cron: "15 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/private-stats.yml
+      - scripts/normalize-profile-stats.mjs
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Generate authenticated stats card
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
+        with:
+          card: stats
+          options: "username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR&number_format=long&show=prs_merged&disable_animations=true&custom_title=Aashir%27s%20GitHub%20Stats"
+          path: profile/stats.svg
+          token: ${{ secrets.PROFILE_STATS_TOKEN }}
+          core_version: 2.1.5
+          fail_on_error: true
+
+      - name: Verify totals and show every accessible repository
+        env:
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+          PROFILE_STATS_USERNAME: ${{ github.repository_owner }}
+        run: node scripts/normalize-profile-stats.mjs
+
+      - name: Commit refreshed card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/stats.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "Update private-inclusive stats [skip ci]"
+          git push
