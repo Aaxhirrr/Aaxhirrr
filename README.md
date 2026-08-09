@@ -16,13 +16,15 @@ Also contribute to open-source from time to time, especially for Google's gemini
 
 ---
 
-## 🚀 GitHub Dashboard
+## 📊 Cool Stats
 
-[![Aashir's private-inclusive GitHub Stats](./profile/stats.svg)](https://github.com/Aaxhirrr)
+<p align="center">
+  <a href="https://github.com/Aaxhirrr">
+    <img src="./profile/stats.svg" alt="Aashir's A++ private-inclusive GitHub stats" width="100%">
+  </a>
+</p>
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Aaxhirrr&theme=tokyonight&hide_border=true)
-
-<!-- ![Metrics](https://raw.githubusercontent.com/Aaxhirrr/Aaxhirrr/main/github-metrics.svg) -->
 
 ---
 
@@ -32,7 +34,7 @@ Also contribute to open-source from time to time, especially for Google's gemini
 
 ---
 
-## 📊 Live Contribution Overview 
+## 📊 Live Contribution Overview
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Aaxhirrr&theme=tokyonight)
 
