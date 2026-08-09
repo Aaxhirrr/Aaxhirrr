@@ -16,11 +16,11 @@ Also contribute to open-source from time to time, especially for Google's gemini
 
 ---
 
-## 📊 Cool Stats
+## 📊 Stats
 
 <p align="center">
   <a href="https://github.com/Aaxhirrr">
-    <img src="./profile/cool-stats.svg" alt="Aashir's unified A++ GitHub stats, contribution streaks, and activity timeline" width="100%">
+    <img src="./profile/github-stats.svg" alt="Aashir's A++ GitHub stats, contribution streaks, and activity timeline" width="100%">
   </a>
 </p>
 

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="660" viewBox="0 0 1100 660" role="img" aria-labelledby="titleId descId" data-theme="stats">
+  <title id="titleId">Aashir Javed&apos;s Stats, Grade A++</title>
+  <desc id="descId">Grade A++, 396 pull requests, 329 merged pull requests, 67 repositories, 1,773,105 lines changed across authored pull requests, 5,224 contributions, 33 day current streak, 44 day longest streak</desc>
+  <defs>
+    <linearGradient id="activity-fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bf91f3" stop-opacity="0.46"/>
+      <stop offset="100%" stop-color="#bf91f3" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="activity-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#70a5fd"/>
+      <stop offset="100%" stop-color="#bf91f3"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif; }
+    .title { fill: #f0f6fc; font-size: 44px; font-weight: 760; letter-spacing: -1.2px; }
+    .kicker, .eyebrow, .metric-label, .section-label, .grade-label { fill: #8b949e; font-family: "SFMono-Regular", Consolas, monospace; font-size: 12px; font-weight: 650; letter-spacing: 1.1px; }
+    .metric-value { fill: #f0f6fc; font-size: 38px; font-weight: 760; letter-spacing: -0.8px; }
+    .grade-value { fill: #70a5fd; font-size: 52px; font-weight: 820; letter-spacing: -1.6px; }
+    .streak-value { fill: #f0f6fc; font-size: 38px; font-weight: 760; letter-spacing: -0.8px; }
+    .streak-current { fill: #38bdae; }
+    .streak-longest { fill: #70a5fd; }
+    .streak-note { fill: #8b949e; font-family: "SFMono-Regular", Consolas, monospace; font-size: 11px; letter-spacing: 0.2px; }
+    .chart-label { fill: #6e7681; font-family: "SFMono-Regular", Consolas, monospace; font-size: 10px; }
+    .footer { fill: #8b949e; font-family: "SFMono-Regular", Consolas, monospace; font-size: 11px; }
+  </style>
+
+  <rect width="1100" height="660" rx="20" fill="#11131b"/>
+  <rect x="56" y="28" width="54" height="3" rx="1.5" fill="#70a5fd"/>
+  <rect x="116" y="28" width="26" height="3" rx="1.5" fill="#bf91f3"/>
+
+  <text class="kicker" x="56" y="58">AASHIR JAVED / GITHUB</text>
+  <text class="title" x="56" y="112">Stats</text>
+  <text class="eyebrow" x="56" y="136">PUBLIC + PRIVATE ACTIVITY</text>
+  <text class="eyebrow" x="1044" y="58" text-anchor="end">UPDATED AUG 9, 2026</text>
+  <text class="grade-label" x="1044" y="88" text-anchor="end">PROFILE GRADE</text>
+  <text class="grade-value" data-testid="grade" x="1044" y="132" text-anchor="end">A++</text>
+
+  <line x1="56" y1="154" x2="1044" y2="154" stroke="#262b36"/>
+
+  <g transform="translate(56 176)">
+    <text class="metric-label">STARS</text>
+    <text class="metric-value" data-testid="stars" y="45">16</text>
+  </g>
+
+  <g transform="translate(254 176)">
+    <text class="metric-label">PULL REQUESTS</text>
+    <text class="metric-value" data-testid="prs" y="45">396</text>
+  </g>
+
+  <g transform="translate(452 176)">
+    <text class="metric-label">MERGED PRS</text>
+    <text class="metric-value" data-testid="prs_merged" y="45">329</text>
+  </g>
+
+  <g transform="translate(650 176)">
+    <text class="metric-label">REPOSITORIES</text>
+    <text class="metric-value" data-testid="repos" y="45">67</text>
+  </g>
+
+  <g transform="translate(848 176)">
+    <text class="metric-label">PR LINES CHANGED</text>
+    <text class="metric-value" data-testid="lines_changed" y="45">1.8M</text>
+  </g>
+
+  <line x1="56" y1="269" x2="1044" y2="269" stroke="#262b36"/>
+
+  <g transform="translate(56 307)">
+    <text class="section-label">TOTAL CONTRIBUTIONS</text>
+    <text class="streak-value" data-testid="total_contributions" y="50">5,224</text>
+    <text class="streak-note" y="79">SINCE NOV 2023</text>
+  </g>
+  <g transform="translate(420 307)">
+    <text class="section-label">CURRENT STREAK</text>
+    <text class="streak-value streak-current" data-testid="current_streak" y="50">33 days</text>
+    <text class="streak-note" y="79">JUL 8 – AUG 9</text>
+  </g>
+  <g transform="translate(784 307)">
+    <text class="section-label">LONGEST STREAK</text>
+    <text class="streak-value streak-longest" data-testid="longest_streak" y="50">44 days</text>
+    <text class="streak-note" y="79">JUN 21 – AUG 3</text>
+  </g>
+
+  <line x1="56" y1="418" x2="1044" y2="418" stroke="#262b36"/>
+  <text class="eyebrow" x="56" y="454">CONTRIBUTIONS · LAST 12 MONTHS</text>
+  <text class="eyebrow" x="1044" y="454" text-anchor="end">PEAK 948 / WEEK</text>
+  <line x1="56" y1="578" x2="1044" y2="578" stroke="#262b36"/>
+  <path d="M56.0 576.2 L75.4 575.3 L94.7 576.5 L114.1 576.8 L133.5 577.0 L152.9 577.3 L172.2 575.6 L191.6 576.6 L211.0 574.8 L230.4 577.2 L249.7 577.3 L269.1 577.3 L288.5 576.5 L307.8 575.6 L327.2 577.0 L346.6 577.5 L366.0 577.1 L385.3 577.1 L404.7 577.3 L424.1 577.3 L443.5 577.2 L462.8 575.6 L482.2 577.5 L501.6 575.7 L520.9 576.9 L540.3 575.5 L559.7 575.6 L579.1 575.1 L598.4 571.9 L617.8 575.0 L637.2 575.0 L656.5 574.7 L675.9 574.4 L695.3 574.3 L714.7 576.8 L734.0 575.4 L753.4 572.0 L772.8 576.8 L792.2 577.5 L811.5 576.7 L830.9 576.5 L850.3 573.8 L869.6 574.3 L889.0 574.7 L908.4 571.0 L927.8 573.9 L947.1 572.6 L966.5 544.9 L985.9 474.0 L1005.3 494.0 L1024.6 511.3 L1044.0 539.7 L1044 578 L56 578 Z" fill="url(#activity-fill)"/>
+  <path d="M56.0 576.2 L75.4 575.3 L94.7 576.5 L114.1 576.8 L133.5 577.0 L152.9 577.3 L172.2 575.6 L191.6 576.6 L211.0 574.8 L230.4 577.2 L249.7 577.3 L269.1 577.3 L288.5 576.5 L307.8 575.6 L327.2 577.0 L346.6 577.5 L366.0 577.1 L385.3 577.1 L404.7 577.3 L424.1 577.3 L443.5 577.2 L462.8 575.6 L482.2 577.5 L501.6 575.7 L520.9 576.9 L540.3 575.5 L559.7 575.6 L579.1 575.1 L598.4 571.9 L617.8 575.0 L637.2 575.0 L656.5 574.7 L675.9 574.4 L695.3 574.3 L714.7 576.8 L734.0 575.4 L753.4 572.0 L772.8 576.8 L792.2 577.5 L811.5 576.7 L830.9 576.5 L850.3 573.8 L869.6 574.3 L889.0 574.7 L908.4 571.0 L927.8 573.9 L947.1 572.6 L966.5 544.9 L985.9 474.0 L1005.3 494.0 L1024.6 511.3 L1044.0 539.7" fill="none" stroke="url(#activity-line)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <text class="chart-label" x="56.0" y="607" text-anchor="middle">Aug</text>
+<text class="chart-label" x="249.7" y="607" text-anchor="middle">Oct</text>
+<text class="chart-label" x="443.5" y="607" text-anchor="middle">Dec</text>
+<text class="chart-label" x="637.2" y="607" text-anchor="middle">Mar</text>
+<text class="chart-label" x="830.9" y="607" text-anchor="middle">May</text>
+<text class="chart-label" x="1044.0" y="607" text-anchor="middle">Aug</text>
+
+  <text class="footer" x="56" y="642">58 public · 9 private · joined Nov 2023</text>
+  <text class="footer" x="1044" y="642" text-anchor="end">Phoenix</text>
+</svg>
