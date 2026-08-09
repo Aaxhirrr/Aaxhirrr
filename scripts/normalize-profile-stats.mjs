@@ -2,7 +2,7 @@ import { writeFile } from "node:fs/promises";
 
 const token = process.env.PROFILE_STATS_TOKEN;
 const username = process.env.PROFILE_STATS_USERNAME ?? "Aaxhirrr";
-const statsPath = "profile/cool-stats.svg";
+const statsPath = "profile/github-stats.svg";
 const displayedGrade = "A++";
 const now = process.env.PROFILE_STATS_NOW
   ? new Date(process.env.PROFILE_STATS_NOW)
@@ -363,7 +363,7 @@ const description = [
   `${streaks.longest.count} day longest streak`,
 ].join(", ");
 
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="660" viewBox="0 0 1100 660" role="img" aria-labelledby="titleId descId">
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="660" viewBox="0 0 1100 660" role="img" aria-labelledby="titleId descId" data-theme="stats">
   <title id="titleId">${escapeXml(titleName)}&apos;s Stats, Grade ${displayedGrade}</title>
   <desc id="descId">${escapeXml(description)}</desc>
   <defs>
