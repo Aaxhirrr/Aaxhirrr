@@ -86,9 +86,13 @@ if (readCardValue("prs_merged") !== mergedPullRequests) {
 
 replaceCardValue("contribs", allRepositories);
 svg = svg.replaceAll(/Contributed to(?: \(last year\))?:/g, "All Repositories:");
+svg = svg.replaceAll(
+  /All Repositories: [\d,]+/g,
+  `All Repositories: ${allRepositories}`,
+);
 
-if (!svg.includes("All Repositories:")) {
-  throw new Error("Generated card is missing the all-repositories label");
+if (!svg.includes(`All Repositories: ${allRepositories}</desc>`)) {
+  throw new Error("Generated card accessibility text has the wrong repository total");
 }
 
 await writeFile(statsPath, svg);
