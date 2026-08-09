@@ -1,243 +1,106 @@
-<svg
-        width="467"
-        height="220"
-        viewBox="0 0 467 220"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        role="img"
-        aria-labelledby="descId"
-      >
-        <title id="titleId">Aashir&#39;s GitHub Stats, Rank: A++</title>
-        <desc id="descId">Total Stars Earned: 16, Total Commits  : 4795, Total PRs: 393, Total PRs Merged: 324, Total Issues: 5, All Repositories: 67</desc>
-        <style>
-          .header {
-            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #70a5fd;
-            animation: fadeInAnimation 0.8s ease-in-out forwards;
-          }
-          @supports(-moz-appearance: auto) {
-            /* Selector detects Firefox */
-            .header { font-size: 15.5px; }
-          }
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700" role="img" aria-labelledby="titleId descId">
+  <title id="titleId">Aashir Javed&apos;s Cool Stats, Grade A++</title>
+  <desc id="descId">Grade A++, 4,802 commits, 394 pull requests, 327 merged pull requests, 67 repositories, 1,772,251 lines changed across authored pull requests, 5,218 contributions, 33 day current streak, 44 day longest streak</desc>
+  <defs>
+    <linearGradient id="activity-fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bf91f3" stop-opacity="0.72"/>
+      <stop offset="100%" stop-color="#bf91f3" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif; }
+    .title { fill: #70a5fd; font-size: 29px; font-weight: 700; letter-spacing: -0.4px; }
+    .eyebrow { fill: #8b949e; font-family: "SFMono-Regular", Consolas, monospace; font-size: 12px; font-weight: 600; letter-spacing: 1.4px; }
+    .metric-value { fill: #f0f6fc; font-size: 34px; font-weight: 720; letter-spacing: -0.6px; }
+    .metric-label { fill: #38bdae; font-family: "SFMono-Regular", Consolas, monospace; font-size: 12px; font-weight: 650; letter-spacing: 0.8px; }
+    .grade { fill: #38bdae; font-size: 42px; font-weight: 800; letter-spacing: -1px; }
+    .streak-value { fill: #70a5fd; font-size: 36px; font-weight: 760; letter-spacing: -0.6px; }
+    .streak-label { fill: #f0f6fc; font-size: 15px; font-weight: 650; }
+    .streak-date { fill: #38bdae; font-family: "SFMono-Regular", Consolas, monospace; font-size: 12px; }
+    .chart-label { fill: #8b949e; font-family: "SFMono-Regular", Consolas, monospace; font-size: 11px; }
+    .footer { fill: #8b949e; font-family: "SFMono-Regular", Consolas, monospace; font-size: 11px; }
+  </style>
 
-    .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #38bdae;
-    }
-    @supports(-moz-appearance: auto) {
-      /* Selector detects Firefox */
-      .stat { font-size:12px; }
-    }
-    .stagger {
-      opacity: 0;
-      animation: fadeInAnimation 0.3s ease-in-out forwards;
-    }
-    .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #38bdae;
-      animation: scaleInAnimation 0.3s ease-in-out forwards;
-    }
-    .rank-percentile-header {
-      font-size: 14px;
-    }
-    .rank-percentile-text {
-      font-size: 16px;
-    }
+  <rect x="0.5" y="0.5" width="1099" height="699" rx="18" fill="#161822" stroke="#2d333b"/>
 
-    .not_bold { font-weight: 400 }
-    .bold { font-weight: 700 }
-    .icon {
-      fill: #bf91f3;
-      display: block;
-    }
-
-    .rank-circle-rim {
-      stroke: #70a5fd;
-      fill: none;
-      stroke-width: 6;
-      opacity: 0.2;
-    }
-    .rank-circle {
-      stroke: #70a5fd;
-      stroke-dasharray: 250;
-      fill: none;
-      stroke-width: 6;
-      stroke-linecap: round;
-      opacity: 0.8;
-      transform-origin: -10px 8px;
-      transform: rotate(-90deg);
-      animation: rankAnimation 1s forwards ease-in-out;
-    }
-
-    @keyframes rankAnimation {
-      from {
-        stroke-dashoffset: 251.32741228718345;
-      }
-      to {
-        stroke-dashoffset: 113.1491950038076;
-      }
-    }
+  <text class="title" x="56" y="58">Aashir Javed&apos;s Cool Stats</text>
+  <text class="eyebrow" x="56" y="86">PUBLIC + PRIVATE GITHUB ACTIVITY</text>
+  <text class="eyebrow" x="1044" y="58" text-anchor="end">UPDATED AUG 9, 2026</text>
 
 
-
-
-      /* Animations */
-      @keyframes scaleInAnimation {
-        from {
-          transform: translate(-5px, 5px) scale(0);
-        }
-        to {
-          transform: translate(-5px, 5px) scale(1);
-        }
-      }
-      @keyframes fadeInAnimation {
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-
-          * { animation-duration: 0s !important; animation-delay: 0s !important; }
-        </style>
-
-
-
-        <rect
-          data-testid="card-bg"
-          x="0.5"
-          y="0.5"
-          rx="4.5"
-          height="99%"
-          stroke="#e4e2e2"
-          width="466"
-          fill="#1a1b27"
-          stroke-opacity="0"
-        />
-
-
-      <g
-        data-testid="card-title"
-        transform="translate(25, 35)"
-      >
-        <g transform="translate(0, 0)">
-      <text
-        x="0"
-        y="0"
-        class="header"
-        data-testid="header"
-      >Aashir&#39;s GitHub Stats</text>
-    </g>
-      </g>
-
-
-        <g
-          data-testid="main-card-body"
-          transform="translate(0, 55)"
-        >
-
-    <g data-testid="rank-circle"
-          transform="translate(390.5, 60)">
-        <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
-        <circle class="rank-circle" cx="-10" cy="8" r="40" />
-        <g class="rank-text">
-
-        <text x="-5" y="3" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="level-rank-icon">A++</text>
-
-        </g>
-      </g>
-    <svg x="0" y="0">
-      <g transform="translate(0, 0)">
-    <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
-
-    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-      <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
-    </svg>
-
-      <text class="stat  bold" x="25" y="12.5">Total Stars Earned:</text>
-      <text
-        class="stat  bold"
-        x="224.01"
-        y="12.5"
-        data-testid="stars"
-      >16</text>
-    </g>
-  </g><g transform="translate(0, 25)">
-    <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
-
-    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-      <path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"/>
-    </svg>
-
-      <text class="stat  bold" x="25" y="12.5">Total Commits:</text>
-      <text
-        class="stat  bold"
-        x="224.01"
-        y="12.5"
-        data-testid="commits"
-      >4795</text>
-    </g>
-  </g><g transform="translate(0, 50)">
-    <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
-
-    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-      <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
-    </svg>
-
-      <text class="stat  bold" x="25" y="12.5">Total PRs:</text>
-      <text
-        class="stat  bold"
-        x="224.01"
-        y="12.5"
-        data-testid="prs"
-      >393</text>
-    </g>
-  </g><g transform="translate(0, 75)">
-    <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
-
-    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-      <path fill-rule="evenodd" d="M5.45 5.154A4.25 4.25 0 0 0 9.25 7.5h1.378a2.251 2.251 0 1 1 0 1.5H9.25A5.734 5.734 0 0 1 5 7.123v3.505a2.25 2.25 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.95-.218ZM4.25 13.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm8.5-4.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM5 3.25a.75.75 0 1 0 0 .005V3.25Z" />
-    </svg>
-
-      <text class="stat  bold" x="25" y="12.5">Total PRs Merged:</text>
-      <text
-        class="stat  bold"
-        x="224.01"
-        y="12.5"
-        data-testid="prs_merged"
-      >324</text>
-    </g>
-  </g><g transform="translate(0, 100)">
-    <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
-
-    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-      <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/>
-    </svg>
-
-      <text class="stat  bold" x="25" y="12.5">Total Issues:</text>
-      <text
-        class="stat  bold"
-        x="224.01"
-        y="12.5"
-        data-testid="issues"
-      >5</text>
-    </g>
-  </g><g transform="translate(0, 125)">
-    <g class="stagger" style="animation-delay: 1200ms" transform="translate(25, 0)">
-
-    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-      <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
-    </svg>
-
-      <text class="stat  bold" x="25" y="12.5">All Repositories:</text>
-      <text
-        class="stat  bold"
-        x="224.01"
-        y="12.5"
-        data-testid="contribs"
-      >67</text>
-    </g>
+  <g transform="translate(56 155)">
+    <text class="metric-value" data-testid="stars">16</text>
+    <text class="metric-label" y="28">TOTAL STARS</text>
   </g>
-    </svg>
 
-        </g>
-      </svg>
+  <g transform="translate(238 155)">
+    <text class="metric-value" data-testid="commits">4,802</text>
+    <text class="metric-label" y="28">TOTAL COMMITS</text>
+  </g>
+
+  <g transform="translate(420 155)">
+    <text class="metric-value" data-testid="prs">394</text>
+    <text class="metric-label" y="28">TOTAL PRS</text>
+  </g>
+
+  <g transform="translate(602 155)">
+    <text class="metric-value" data-testid="prs_merged">327</text>
+    <text class="metric-label" y="28">PRS MERGED</text>
+  </g>
+
+  <g transform="translate(56 248)">
+    <text class="metric-value" data-testid="issues">5</text>
+    <text class="metric-label" y="28">TOTAL ISSUES</text>
+  </g>
+
+  <g transform="translate(302 248)">
+    <text class="metric-value" data-testid="repos">67</text>
+    <text class="metric-label" y="28">ALL REPOSITORIES</text>
+  </g>
+
+  <g transform="translate(548 248)">
+    <text class="metric-value" data-testid="lines_changed">1.8M</text>
+    <text class="metric-label" y="28">PR LINES CHANGED</text>
+  </g>
+
+  <g transform="translate(920 206)">
+    <circle r="71" fill="none" stroke="#2e3855" stroke-width="12"/>
+    <circle r="71" fill="none" stroke="#70a5fd" stroke-width="12" stroke-linecap="round"/>
+    <text class="grade" data-testid="grade" text-anchor="middle" dominant-baseline="central">A++</text>
+    <text class="eyebrow" y="103" text-anchor="middle">GRADE</text>
+  </g>
+
+  <line x1="56" y1="327" x2="1044" y2="327" stroke="#2d333b"/>
+
+  <g transform="translate(56 381)">
+    <text class="streak-value" data-testid="total_contributions">5,218</text>
+    <text class="streak-label" y="30">Total contributions</text>
+    <text class="streak-date" y="55">Since Nov 2023</text>
+  </g>
+  <g transform="translate(403 381)">
+    <text class="streak-value" data-testid="current_streak">33 days</text>
+    <text class="streak-label" y="30">Current streak</text>
+    <text class="streak-date" y="55">Jul 8 – Aug 9</text>
+  </g>
+  <g transform="translate(748 381)">
+    <text class="streak-value" data-testid="longest_streak">44 days</text>
+    <text class="streak-label" y="30">Longest streak</text>
+    <text class="streak-date" y="55">Jun 21 – Aug 3</text>
+  </g>
+
+  <line x1="56" y1="470" x2="1044" y2="470" stroke="#2d333b"/>
+  <text class="eyebrow" x="56" y="509">CONTRIBUTION VELOCITY · LAST 12 MONTHS</text>
+  <text class="eyebrow" x="1044" y="509" text-anchor="end">PEAK 948 / WEEK</text>
+  <line x1="56" y1="624" x2="1044" y2="624" stroke="#2d333b"/>
+  <path d="M56.0 622.4 L75.4 621.6 L94.7 622.6 L114.1 622.9 L133.5 623.1 L152.9 623.4 L172.2 621.9 L191.6 622.7 L211.0 621.2 L230.4 623.3 L249.7 623.4 L269.1 623.4 L288.5 622.6 L307.8 621.9 L327.2 623.1 L346.6 623.5 L366.0 623.2 L385.3 623.2 L404.7 623.4 L424.1 623.4 L443.5 623.3 L462.8 621.9 L482.2 623.5 L501.6 622.0 L520.9 623.0 L540.3 621.8 L559.7 621.9 L579.1 621.5 L598.4 618.6 L617.8 621.4 L637.2 621.4 L656.5 621.1 L675.9 620.8 L695.3 620.7 L714.7 622.9 L734.0 621.7 L753.4 618.7 L772.8 622.9 L792.2 623.5 L811.5 622.8 L830.9 622.6 L850.3 620.3 L869.6 620.7 L889.0 621.1 L908.4 617.8 L927.8 620.4 L947.1 619.2 L966.5 594.7 L985.9 532.0 L1005.3 549.7 L1024.6 565.0 L1044.0 590.7 L1044 624 L56 624 Z" fill="url(#activity-fill)"/>
+  <path d="M56.0 622.4 L75.4 621.6 L94.7 622.6 L114.1 622.9 L133.5 623.1 L152.9 623.4 L172.2 621.9 L191.6 622.7 L211.0 621.2 L230.4 623.3 L249.7 623.4 L269.1 623.4 L288.5 622.6 L307.8 621.9 L327.2 623.1 L346.6 623.5 L366.0 623.2 L385.3 623.2 L404.7 623.4 L424.1 623.4 L443.5 623.3 L462.8 621.9 L482.2 623.5 L501.6 622.0 L520.9 623.0 L540.3 621.8 L559.7 621.9 L579.1 621.5 L598.4 618.6 L617.8 621.4 L637.2 621.4 L656.5 621.1 L675.9 620.8 L695.3 620.7 L714.7 622.9 L734.0 621.7 L753.4 618.7 L772.8 622.9 L792.2 623.5 L811.5 622.8 L830.9 622.6 L850.3 620.3 L869.6 620.7 L889.0 621.1 L908.4 617.8 L927.8 620.4 L947.1 619.2 L966.5 594.7 L985.9 532.0 L1005.3 549.7 L1024.6 565.0 L1044.0 590.7" fill="none" stroke="#bf91f3" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <text class="chart-label" x="56.0" y="648" text-anchor="middle">Aug</text>
+<text class="chart-label" x="249.7" y="648" text-anchor="middle">Oct</text>
+<text class="chart-label" x="443.5" y="648" text-anchor="middle">Dec</text>
+<text class="chart-label" x="637.2" y="648" text-anchor="middle">Mar</text>
+<text class="chart-label" x="830.9" y="648" text-anchor="middle">May</text>
+<text class="chart-label" x="1044.0" y="648" text-anchor="middle">Aug</text>
+
+  <text class="footer" x="56" y="680">58 public · 9 private · joined Nov 2023</text>
+  <text class="footer" x="1044" y="680" text-anchor="end">Phoenix</text>
+</svg>
