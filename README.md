@@ -24,19 +24,11 @@ Also contribute to open-source from time to time, especially for Google's gemini
   </a>
 </p>
 
-![GitHub Streak](https://streak-stats.demolab.com?user=Aaxhirrr&theme=tokyonight&hide_border=true)
-
 ---
 
 ## 🧠 LeetCode
 
 ![LeetCode Stats](https://img.shields.io/badge/LeetCode%20Stats-Loading...-darkorange?style=for-the-badge&logo=leetcode&logoColor=white)
-
----
-
-## 📊 Live Contribution Overview
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Aaxhirrr&theme=tokyonight)
 
 ---
 
