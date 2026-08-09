@@ -19,7 +19,7 @@ const headers = {
   Accept: "application/vnd.github+json",
   Authorization: `Bearer ${token}`,
   "Content-Type": "application/json",
-  "User-Agent": "Aaxhirrr-cool-stats",
+  "User-Agent": "Aaxhirrr-profile-stats",
   "X-GitHub-Api-Version": "2022-11-28",
 };
 
@@ -377,7 +377,7 @@ const description = [
 ].join(", ");
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700" role="img" aria-labelledby="titleId descId">
-  <title id="titleId">${escapeXml(titleName)}&apos;s Cool Stats, Grade ${displayedGrade}</title>
+  <title id="titleId">${escapeXml(titleName)}&apos;s Stats, Grade ${displayedGrade}</title>
   <desc id="descId">${escapeXml(description)}</desc>
   <defs>
     <linearGradient id="activity-fill" x1="0" y1="0" x2="0" y2="1">
@@ -401,7 +401,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" v
 
   <rect x="0.5" y="0.5" width="1099" height="699" rx="18" fill="#161822" stroke="#2d333b"/>
 
-  <text class="title" x="56" y="58">${escapeXml(titleName)}&apos;s Cool Stats</text>
+  <text class="title" x="56" y="58">Stats</text>
   <text class="eyebrow" x="56" y="86">PUBLIC + PRIVATE GITHUB ACTIVITY</text>
   <text class="eyebrow" x="1044" y="58" text-anchor="end">UPDATED ${escapeXml(updatedDate.toUpperCase())}</text>
 
@@ -457,7 +457,7 @@ const requiredValues = [
 ];
 for (const value of requiredValues) {
   if (!normalizedSvg.includes(value)) {
-    throw new Error(`Generated Cool Stats card is missing ${value}`);
+    throw new Error(`Generated stats card is missing ${value}`);
   }
 }
 
