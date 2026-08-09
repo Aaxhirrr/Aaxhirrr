@@ -55,9 +55,6 @@ const profileQuery = `
       mergedPullRequests: pullRequests(states: MERGED) {
         totalCount
       }
-      issues {
-        totalCount
-      }
       repositories(
         first: 100
         after: $cursor
@@ -181,15 +178,10 @@ const contributionYearsPromise = Promise.all(
   }),
 );
 
-const commitSearchUrl = new URL("https://api.github.com/search/commits");
-commitSearchUrl.searchParams.set("q", `author:${username}`);
-commitSearchUrl.searchParams.set("per_page", "1");
-const commitsPromise = requestJson(commitSearchUrl);
 const pullRequestLinesPromise = fetchPullRequestLines();
 
-const [contributionYears, commitSearch, totalLinesChanged] = await Promise.all([
+const [contributionYears, totalLinesChanged] = await Promise.all([
   contributionYearsPromise,
-  commitsPromise,
   pullRequestLinesPromise,
 ]);
 
@@ -269,10 +261,8 @@ const totalStars = repositories.reduce(
   (sum, repository) => sum + repository.stargazerCount,
   0,
 );
-const totalCommits = commitSearch.total_count;
 const totalPullRequests = profile.pullRequests.totalCount;
 const mergedPullRequests = profile.mergedPullRequests.totalCount;
-const totalIssues = profile.issues.totalCount;
 
 const chartDayCount = 52 * 7;
 const today = parseDate(currentDate);
@@ -343,12 +333,10 @@ const renderMetric = ({ x, y, label, value, id }) => `
 
 const metrics = [
   { x: 56, y: 155, label: "TOTAL STARS", value: formatNumber(totalStars), id: "stars" },
-  { x: 238, y: 155, label: "TOTAL COMMITS", value: formatNumber(totalCommits), id: "commits" },
-  { x: 420, y: 155, label: "TOTAL PRS", value: formatNumber(totalPullRequests), id: "prs" },
-  { x: 602, y: 155, label: "PRS MERGED", value: formatNumber(mergedPullRequests), id: "prs_merged" },
-  { x: 56, y: 248, label: "TOTAL ISSUES", value: formatNumber(totalIssues), id: "issues" },
-  { x: 302, y: 248, label: "ALL REPOSITORIES", value: formatNumber(allRepositories), id: "repos" },
-  { x: 548, y: 248, label: "PR LINES CHANGED", value: formatCompactNumber(totalLinesChanged), id: "lines_changed" },
+  { x: 238, y: 155, label: "TOTAL PRS", value: formatNumber(totalPullRequests), id: "prs" },
+  { x: 420, y: 155, label: "PRS MERGED", value: formatNumber(mergedPullRequests), id: "prs_merged" },
+  { x: 56, y: 248, label: "ALL REPOSITORIES", value: formatNumber(allRepositories), id: "repos" },
+  { x: 302, y: 248, label: "PR LINES CHANGED", value: formatCompactNumber(totalLinesChanged), id: "lines_changed" },
 ];
 
 const chartLabels = chartLabelIndexes
@@ -366,7 +354,6 @@ const chartLabels = chartLabelIndexes
 const titleName = profile.name || profile.login;
 const description = [
   `Grade ${displayedGrade}`,
-  `${formatNumber(totalCommits)} commits`,
   `${formatNumber(totalPullRequests)} pull requests`,
   `${formatNumber(mergedPullRequests)} merged pull requests`,
   `${formatNumber(allRepositories)} repositories`,

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700" role="img" aria-labelledby="titleId descId">
   <title id="titleId">Aashir Javed&apos;s Stats, Grade A++</title>
-  <desc id="descId">Grade A++, 4,811 commits, 396 pull requests, 329 merged pull requests, 67 repositories, 1,773,105 lines changed across authored pull requests, 5,224 contributions, 33 day current streak, 44 day longest streak</desc>
+  <desc id="descId">Grade A++, 396 pull requests, 329 merged pull requests, 67 repositories, 1,773,105 lines changed across authored pull requests, 5,224 contributions, 33 day current streak, 44 day longest streak</desc>
   <defs>
     <linearGradient id="activity-fill" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#bf91f3" stop-opacity="0.72"/>
@@ -34,31 +34,21 @@
   </g>
 
   <g transform="translate(238 155)">
-    <text class="metric-value" data-testid="commits">4,811</text>
-    <text class="metric-label" y="28">TOTAL COMMITS</text>
-  </g>
-
-  <g transform="translate(420 155)">
     <text class="metric-value" data-testid="prs">396</text>
     <text class="metric-label" y="28">TOTAL PRS</text>
   </g>
 
-  <g transform="translate(602 155)">
+  <g transform="translate(420 155)">
     <text class="metric-value" data-testid="prs_merged">329</text>
     <text class="metric-label" y="28">PRS MERGED</text>
   </g>
 
   <g transform="translate(56 248)">
-    <text class="metric-value" data-testid="issues">5</text>
-    <text class="metric-label" y="28">TOTAL ISSUES</text>
-  </g>
-
-  <g transform="translate(302 248)">
     <text class="metric-value" data-testid="repos">67</text>
     <text class="metric-label" y="28">ALL REPOSITORIES</text>
   </g>
 
-  <g transform="translate(548 248)">
+  <g transform="translate(302 248)">
     <text class="metric-value" data-testid="lines_changed">1.8M</text>
     <text class="metric-label" y="28">PR LINES CHANGED</text>
   </g>
