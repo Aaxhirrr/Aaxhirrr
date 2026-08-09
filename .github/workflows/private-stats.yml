@@ -7,7 +7,6 @@ on:
   push:
     branches:
       - main
-      - AASHIR/unified-cool-stats
     paths:
       - .github/workflows/private-stats.yml
       - scripts/normalize-profile-stats.mjs
