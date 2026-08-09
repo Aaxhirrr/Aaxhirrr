@@ -85,7 +85,11 @@ if (readCardValue("prs_merged") !== mergedPullRequests) {
 }
 
 replaceCardValue("contribs", allRepositories);
-svg = svg.replaceAll("Contributed to:", "All Repositories:");
+svg = svg.replaceAll(/Contributed to(?: \(last year\))?:/g, "All Repositories:");
+
+if (!svg.includes("All Repositories:")) {
+  throw new Error("Generated card is missing the all-repositories label");
+}
 
 await writeFile(statsPath, svg);
 console.log(
