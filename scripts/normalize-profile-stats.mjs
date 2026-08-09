@@ -77,23 +77,38 @@ const totalPullRequests = profile.pullRequests.totalCount;
 const mergedPullRequests = profile.mergedPullRequests.totalCount;
 const allRepositories = profile.repositories.totalCount;
 
-if (readCardValue("prs") !== totalPullRequests) {
-  throw new Error("Generated card did not include all authenticated pull requests");
-}
-if (readCardValue("prs_merged") !== mergedPullRequests) {
-  throw new Error("Generated card did not include all authenticated merged pull requests");
-}
-
+readCardValue("prs");
+readCardValue("prs_merged");
+replaceCardValue("prs", totalPullRequests);
+replaceCardValue("prs_merged", mergedPullRequests);
 replaceCardValue("contribs", allRepositories);
+svg = svg.replaceAll(
+  /Total PRs: [\d,]+ ?(?=Total PRs Merged:)/g,
+  `Total PRs: ${totalPullRequests}, `,
+);
+svg = svg.replaceAll(
+  /Total PRs Merged: [\d,]+ ?(?=Total Issues:)/g,
+  `Total PRs Merged: ${mergedPullRequests}, `,
+);
 svg = svg.replaceAll(/Contributed to(?: \(last year\))?:/g, "All Repositories:");
 svg = svg.replaceAll(
   /All Repositories: [\d,]+/g,
   `All Repositories: ${allRepositories}`,
 );
 
-if (!svg.includes(`All Repositories: ${allRepositories}</desc>`)) {
-  throw new Error("Generated card accessibility text has the wrong repository total");
+const description = svg.match(/<desc[^>]*>([^<]*)<\/desc>/)?.[1];
+if (
+  !description?.includes(
+    `Total PRs: ${totalPullRequests}, Total PRs Merged: ${mergedPullRequests},`,
+  ) ||
+  !description.includes(`All Repositories: ${allRepositories}`)
+) {
+  throw new Error(
+    `Generated card accessibility text has stale authenticated totals: ${description}`,
+  );
 }
+
+svg = `${svg.replace(/[ \t]+$/gm, "").trim()}\n`;
 
 await writeFile(statsPath, svg);
 console.log(
