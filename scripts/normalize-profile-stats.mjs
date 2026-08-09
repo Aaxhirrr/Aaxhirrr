@@ -379,7 +379,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="660" v
   <style>
     text { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif; }
     .title { fill: #f0f6fc; font-size: 44px; font-weight: 760; letter-spacing: -1.2px; }
-    .kicker, .eyebrow, .metric-label, .section-label, .grade-label { fill: #8b949e; font-family: "SFMono-Regular", Consolas, monospace; font-size: 11px; font-weight: 650; letter-spacing: 1.15px; }
+    .kicker, .eyebrow, .metric-label, .section-label, .grade-label { fill: #8b949e; font-family: "SFMono-Regular", Consolas, monospace; font-size: 12px; font-weight: 650; letter-spacing: 1.1px; }
     .metric-value { fill: #f0f6fc; font-size: 38px; font-weight: 760; letter-spacing: -0.8px; }
     .grade-value { fill: #70a5fd; font-size: 52px; font-weight: 820; letter-spacing: -1.6px; }
     .streak-value { fill: #f0f6fc; font-size: 38px; font-weight: 760; letter-spacing: -0.8px; }
