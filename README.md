@@ -16,25 +16,19 @@ Also contribute to open-source from time to time, especially for Google's gemini
 
 ---
 
-## 🚀 GitHub Dashboard
+## 📊 Cool Stats
 
-[![Aashir's private-inclusive GitHub Stats](./profile/stats.svg)](https://github.com/Aaxhirrr)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Aaxhirrr&theme=tokyonight&hide_border=true)
-
-<!-- ![Metrics](https://raw.githubusercontent.com/Aaxhirrr/Aaxhirrr/main/github-metrics.svg) -->
+<p align="center">
+  <a href="https://github.com/Aaxhirrr">
+    <img src="./profile/stats.svg" alt="Aashir's A++ private-inclusive GitHub stats" width="100%">
+  </a>
+</p>
 
 ---
 
 ## 🧠 LeetCode
 
 ![LeetCode Stats](https://img.shields.io/badge/LeetCode%20Stats-Loading...-darkorange?style=for-the-badge&logo=leetcode&logoColor=white)
-
----
-
-## 📊 Live Contribution Overview 
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Aaxhirrr&theme=tokyonight)
 
 ---
 
