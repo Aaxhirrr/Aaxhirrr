@@ -275,7 +275,7 @@ for (let index = 0; index < chartDayCount; index += 1) {
     contributionsByDate.get(dateKey(date)) ?? 0;
 }
 
-const chart = { left: 56, top: 532, width: 988, height: 92 };
+const chart = { left: 56, top: 474, width: 988, height: 104 };
 const chartBottom = chart.top + chart.height;
 const chartMaximum = Math.max(...weeklyContributions, 1);
 const chartPoints = weeklyContributions.map((value, index) => {
@@ -327,16 +327,16 @@ const updatedDate = new Intl.DateTimeFormat("en-US", {
 
 const renderMetric = ({ x, y, label, value, id }) => `
   <g transform="translate(${x} ${y})">
-    <text class="metric-value" data-testid="${id}">${escapeXml(value)}</text>
-    <text class="metric-label" y="28">${escapeXml(label)}</text>
+    <text class="metric-label">${escapeXml(label)}</text>
+    <text class="metric-value" data-testid="${id}" y="45">${escapeXml(value)}</text>
   </g>`;
 
 const metrics = [
-  { x: 56, y: 155, label: "TOTAL STARS", value: formatNumber(totalStars), id: "stars" },
-  { x: 238, y: 155, label: "TOTAL PRS", value: formatNumber(totalPullRequests), id: "prs" },
-  { x: 420, y: 155, label: "PRS MERGED", value: formatNumber(mergedPullRequests), id: "prs_merged" },
-  { x: 56, y: 248, label: "ALL REPOSITORIES", value: formatNumber(allRepositories), id: "repos" },
-  { x: 302, y: 248, label: "PR LINES CHANGED", value: formatCompactNumber(totalLinesChanged), id: "lines_changed" },
+  { x: 56, y: 176, label: "STARS", value: formatNumber(totalStars), id: "stars" },
+  { x: 254, y: 176, label: "PULL REQUESTS", value: formatNumber(totalPullRequests), id: "prs" },
+  { x: 452, y: 176, label: "MERGED PRS", value: formatNumber(mergedPullRequests), id: "prs_merged" },
+  { x: 650, y: 176, label: "REPOSITORIES", value: formatNumber(allRepositories), id: "repos" },
+  { x: 848, y: 176, label: "PR LINES CHANGED", value: formatCompactNumber(totalLinesChanged), id: "lines_changed" },
 ];
 
 const chartLabels = chartLabelIndexes
@@ -347,7 +347,7 @@ const chartLabels = chartLabelIndexes
       month: "short",
       timeZone: "UTC",
     }).format(date);
-    return `<text class="chart-label" x="${x.toFixed(1)}" y="648" text-anchor="middle">${label}</text>`;
+    return `<text class="chart-label" x="${x.toFixed(1)}" y="607" text-anchor="middle">${label}</text>`;
   })
   .join("\n");
 
@@ -363,72 +363,75 @@ const description = [
   `${streaks.longest.count} day longest streak`,
 ].join(", ");
 
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700" role="img" aria-labelledby="titleId descId">
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="660" viewBox="0 0 1100 660" role="img" aria-labelledby="titleId descId">
   <title id="titleId">${escapeXml(titleName)}&apos;s Stats, Grade ${displayedGrade}</title>
   <desc id="descId">${escapeXml(description)}</desc>
   <defs>
     <linearGradient id="activity-fill" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#bf91f3" stop-opacity="0.72"/>
-      <stop offset="100%" stop-color="#bf91f3" stop-opacity="0.04"/>
+      <stop offset="0%" stop-color="#bf91f3" stop-opacity="0.46"/>
+      <stop offset="100%" stop-color="#bf91f3" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="activity-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#70a5fd"/>
+      <stop offset="100%" stop-color="#bf91f3"/>
     </linearGradient>
   </defs>
   <style>
     text { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif; }
-    .title { fill: #70a5fd; font-size: 29px; font-weight: 700; letter-spacing: -0.4px; }
-    .eyebrow { fill: #8b949e; font-family: "SFMono-Regular", Consolas, monospace; font-size: 12px; font-weight: 600; letter-spacing: 1.4px; }
-    .metric-value { fill: #f0f6fc; font-size: 34px; font-weight: 720; letter-spacing: -0.6px; }
-    .metric-label { fill: #38bdae; font-family: "SFMono-Regular", Consolas, monospace; font-size: 12px; font-weight: 650; letter-spacing: 0.8px; }
-    .grade { fill: #38bdae; font-size: 42px; font-weight: 800; letter-spacing: -1px; }
-    .streak-value { fill: #70a5fd; font-size: 36px; font-weight: 760; letter-spacing: -0.6px; }
-    .streak-label { fill: #f0f6fc; font-size: 15px; font-weight: 650; }
-    .streak-date { fill: #38bdae; font-family: "SFMono-Regular", Consolas, monospace; font-size: 12px; }
-    .chart-label { fill: #8b949e; font-family: "SFMono-Regular", Consolas, monospace; font-size: 11px; }
+    .title { fill: #f0f6fc; font-size: 44px; font-weight: 760; letter-spacing: -1.2px; }
+    .kicker, .eyebrow, .metric-label, .section-label, .grade-label { fill: #8b949e; font-family: "SFMono-Regular", Consolas, monospace; font-size: 11px; font-weight: 650; letter-spacing: 1.15px; }
+    .metric-value { fill: #f0f6fc; font-size: 38px; font-weight: 760; letter-spacing: -0.8px; }
+    .grade-value { fill: #70a5fd; font-size: 52px; font-weight: 820; letter-spacing: -1.6px; }
+    .streak-value { fill: #f0f6fc; font-size: 38px; font-weight: 760; letter-spacing: -0.8px; }
+    .streak-current { fill: #38bdae; }
+    .streak-longest { fill: #70a5fd; }
+    .streak-note { fill: #8b949e; font-family: "SFMono-Regular", Consolas, monospace; font-size: 11px; letter-spacing: 0.2px; }
+    .chart-label { fill: #6e7681; font-family: "SFMono-Regular", Consolas, monospace; font-size: 10px; }
     .footer { fill: #8b949e; font-family: "SFMono-Regular", Consolas, monospace; font-size: 11px; }
   </style>
 
-  <rect x="0.5" y="0.5" width="1099" height="699" rx="18" fill="#161822" stroke="#2d333b"/>
+  <rect width="1100" height="660" rx="20" fill="#11131b"/>
+  <rect x="56" y="28" width="54" height="3" rx="1.5" fill="#70a5fd"/>
+  <rect x="116" y="28" width="26" height="3" rx="1.5" fill="#bf91f3"/>
 
-  <text class="title" x="56" y="58">Stats</text>
-  <text class="eyebrow" x="56" y="86">PUBLIC + PRIVATE GITHUB ACTIVITY</text>
+  <text class="kicker" x="56" y="58">${escapeXml(titleName.toUpperCase())} / GITHUB</text>
+  <text class="title" x="56" y="112">Stats</text>
+  <text class="eyebrow" x="56" y="136">PUBLIC + PRIVATE ACTIVITY</text>
   <text class="eyebrow" x="1044" y="58" text-anchor="end">UPDATED ${escapeXml(updatedDate.toUpperCase())}</text>
+  <text class="grade-label" x="1044" y="88" text-anchor="end">PROFILE GRADE</text>
+  <text class="grade-value" data-testid="grade" x="1044" y="132" text-anchor="end">${displayedGrade}</text>
 
+  <line x1="56" y1="154" x2="1044" y2="154" stroke="#262b36"/>
   ${metrics.map(renderMetric).join("\n")}
 
-  <g transform="translate(920 206)">
-    <circle r="71" fill="none" stroke="#2e3855" stroke-width="12"/>
-    <circle r="71" fill="none" stroke="#70a5fd" stroke-width="12" stroke-linecap="round"/>
-    <text class="grade" data-testid="grade" text-anchor="middle" dominant-baseline="central">${displayedGrade}</text>
-    <text class="eyebrow" y="103" text-anchor="middle">GRADE</text>
+  <line x1="56" y1="269" x2="1044" y2="269" stroke="#262b36"/>
+
+  <g transform="translate(56 307)">
+    <text class="section-label">TOTAL CONTRIBUTIONS</text>
+    <text class="streak-value" data-testid="total_contributions" y="50">${formatNumber(totalContributions)}</text>
+    <text class="streak-note" y="79">SINCE ${escapeXml(joinedDate.toUpperCase())}</text>
+  </g>
+  <g transform="translate(420 307)">
+    <text class="section-label">CURRENT STREAK</text>
+    <text class="streak-value streak-current" data-testid="current_streak" y="50">${streaks.current.count} days</text>
+    <text class="streak-note" y="79">${escapeXml(formatDateRange(streaks.current).toUpperCase())}</text>
+  </g>
+  <g transform="translate(784 307)">
+    <text class="section-label">LONGEST STREAK</text>
+    <text class="streak-value streak-longest" data-testid="longest_streak" y="50">${streaks.longest.count} days</text>
+    <text class="streak-note" y="79">${escapeXml(formatDateRange(streaks.longest).toUpperCase())}</text>
   </g>
 
-  <line x1="56" y1="327" x2="1044" y2="327" stroke="#2d333b"/>
-
-  <g transform="translate(56 381)">
-    <text class="streak-value" data-testid="total_contributions">${formatNumber(totalContributions)}</text>
-    <text class="streak-label" y="30">Total contributions</text>
-    <text class="streak-date" y="55">Since ${escapeXml(joinedDate)}</text>
-  </g>
-  <g transform="translate(403 381)">
-    <text class="streak-value" data-testid="current_streak">${streaks.current.count} days</text>
-    <text class="streak-label" y="30">Current streak</text>
-    <text class="streak-date" y="55">${escapeXml(formatDateRange(streaks.current))}</text>
-  </g>
-  <g transform="translate(748 381)">
-    <text class="streak-value" data-testid="longest_streak">${streaks.longest.count} days</text>
-    <text class="streak-label" y="30">Longest streak</text>
-    <text class="streak-date" y="55">${escapeXml(formatDateRange(streaks.longest))}</text>
-  </g>
-
-  <line x1="56" y1="470" x2="1044" y2="470" stroke="#2d333b"/>
-  <text class="eyebrow" x="56" y="509">CONTRIBUTION VELOCITY · LAST 12 MONTHS</text>
-  <text class="eyebrow" x="1044" y="509" text-anchor="end">PEAK ${formatNumber(chartMaximum)} / WEEK</text>
-  <line x1="${chart.left}" y1="${chartBottom}" x2="${chart.left + chart.width}" y2="${chartBottom}" stroke="#2d333b"/>
+  <line x1="56" y1="418" x2="1044" y2="418" stroke="#262b36"/>
+  <text class="eyebrow" x="56" y="454">CONTRIBUTIONS · LAST 12 MONTHS</text>
+  <text class="eyebrow" x="1044" y="454" text-anchor="end">PEAK ${formatNumber(chartMaximum)} / WEEK</text>
+  <line x1="${chart.left}" y1="${chartBottom}" x2="${chart.left + chart.width}" y2="${chartBottom}" stroke="#262b36"/>
   <path d="${areaPath}" fill="url(#activity-fill)"/>
-  <path d="${linePath}" fill="none" stroke="#bf91f3" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="${linePath}" fill="none" stroke="url(#activity-line)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
   ${chartLabels}
 
-  <text class="footer" x="56" y="680">${publicRepositories} public · ${privateRepositories} private · joined ${escapeXml(joinedDate)}</text>
-  <text class="footer" x="1044" y="680" text-anchor="end">${escapeXml(profile.location || "GitHub")}</text>
+  <text class="footer" x="56" y="642">${publicRepositories} public · ${privateRepositories} private · joined ${escapeXml(joinedDate)}</text>
+  <text class="footer" x="1044" y="642" text-anchor="end">${escapeXml(profile.location || "GitHub")}</text>
 </svg>
 `;
 
@@ -437,10 +440,10 @@ const normalizedSvg = `${svg.replace(/[ \t]+$/gm, "").trim()}\n`;
 const requiredValues = [
   `data-testid="grade"`,
   `>${displayedGrade}</text>`,
-  `data-testid="prs">${formatNumber(totalPullRequests)}</text>`,
-  `data-testid="repos">${formatNumber(allRepositories)}</text>`,
-  `data-testid="lines_changed">${formatCompactNumber(totalLinesChanged)}</text>`,
-  `data-testid="total_contributions">${formatNumber(totalContributions)}</text>`,
+  `data-testid="prs" y="45">${formatNumber(totalPullRequests)}</text>`,
+  `data-testid="repos" y="45">${formatNumber(allRepositories)}</text>`,
+  `data-testid="lines_changed" y="45">${formatCompactNumber(totalLinesChanged)}</text>`,
+  `data-testid="total_contributions" y="50">${formatNumber(totalContributions)}</text>`,
 ];
 for (const value of requiredValues) {
   if (!normalizedSvg.includes(value)) {
