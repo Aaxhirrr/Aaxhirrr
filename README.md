@@ -18,6 +18,8 @@ Also contribute to open-source from time to time, especially for Google's gemini
 
 ## 🚀 GitHub Dashboard
 
+![Aashir's GitHub Stats](https://github-readme-stats-eight-theta.vercel.app/api?username=Aaxhirrr&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
+
 ![GitHub Streak](https://streak-stats.demolab.com?user=Aaxhirrr&theme=tokyonight&hide_border=true)
 
 <!-- ![Metrics](https://raw.githubusercontent.com/Aaxhirrr/Aaxhirrr/main/github-metrics.svg) -->
