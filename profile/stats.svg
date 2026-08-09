@@ -7,7 +7,7 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Aashir&#39;s GitHub Stats, Rank: B+</title>
+        <title id="titleId">Aashir&#39;s GitHub Stats, Rank: A++</title>
         <desc id="descId">Total Stars Earned: 16, Total Commits  : 4784, Total PRs: 392, Total PRs Merged: 323, Total Issues: 5, All Repositories: 67</desc>
         <style>
           .header {
@@ -141,9 +141,7 @@
         <circle class="rank-circle" cx="-10" cy="8" r="40" />
         <g class="rank-text">
 
-        <text x="-5" y="3" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="level-rank-icon">
-          B+
-        </text>
+        <text x="-5" y="3" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="level-rank-icon">A++</text>
 
         </g>
       </g>
