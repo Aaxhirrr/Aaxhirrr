@@ -20,7 +20,7 @@ Also contribute to open-source from time to time, especially for Google's gemini
 
 <p align="center">
   <a href="https://github.com/Aaxhirrr">
-    <img src="./profile/stats.svg" alt="Aashir's A++ private-inclusive GitHub stats" width="100%">
+    <img src="./profile/stats.svg" alt="Aashir's unified A++ GitHub stats, contribution streaks, and activity timeline" width="100%">
   </a>
 </p>
 
