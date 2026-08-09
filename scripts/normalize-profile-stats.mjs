@@ -3,6 +3,7 @@ import { readFile, writeFile } from "node:fs/promises";
 const token = process.env.PROFILE_STATS_TOKEN;
 const username = process.env.PROFILE_STATS_USERNAME ?? "Aaxhirrr";
 const statsPath = "profile/stats.svg";
+const displayedGrade = "A++";
 
 if (!token) {
   throw new Error("PROFILE_STATS_TOKEN is required");
@@ -82,6 +83,8 @@ readCardValue("prs_merged");
 replaceCardValue("prs", totalPullRequests);
 replaceCardValue("prs_merged", mergedPullRequests);
 replaceCardValue("contribs", allRepositories);
+replaceCardValue("level-rank-icon", displayedGrade);
+svg = svg.replace(/Rank: [^<]+(?=<\/title>)/, `Rank: ${displayedGrade}`);
 svg = svg.replaceAll(
   /Total PRs: [\d,]+ ?(?=Total PRs Merged:)/g,
   `Total PRs: ${totalPullRequests}, `,
@@ -97,6 +100,9 @@ svg = svg.replaceAll(
 );
 
 const description = svg.match(/<desc[^>]*>([^<]*)<\/desc>/)?.[1];
+const renderedGrade = svg
+  .match(/data-testid=["']level-rank-icon["'][^>]*>([^<]*)<\/text>/)?.[1]
+  ?.trim();
 if (
   !description?.includes(
     `Total PRs: ${totalPullRequests}, Total PRs Merged: ${mergedPullRequests},`,
@@ -107,10 +113,16 @@ if (
     `Generated card accessibility text has stale authenticated totals: ${description}`,
   );
 }
+if (
+  renderedGrade !== displayedGrade ||
+  !svg.includes(`Rank: ${displayedGrade}</title>`)
+) {
+  throw new Error(`Generated card did not preserve the ${displayedGrade} grade`);
+}
 
 svg = `${svg.replace(/[ \t]+$/gm, "").trim()}\n`;
 
 await writeFile(statsPath, svg);
 console.log(
-  `Verified ${totalPullRequests} PRs, ${mergedPullRequests} merged PRs, and ${allRepositories} accessible repositories.`,
+  `Verified grade ${displayedGrade}, ${totalPullRequests} PRs, ${mergedPullRequests} merged PRs, and ${allRepositories} accessible repositories.`,
 );
