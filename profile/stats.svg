@@ -8,7 +8,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Aashir&#39;s GitHub Stats, Rank: A++</title>
-        <desc id="descId">Total Stars Earned: 16, Total Commits  : 4784, Total PRs: 392, Total PRs Merged: 323, Total Issues: 5, All Repositories: 67</desc>
+        <desc id="descId">Total Stars Earned: 16, Total Commits  : 4795, Total PRs: 393, Total PRs Merged: 324, Total Issues: 5, All Repositories: 67</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -72,7 +72,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 113.16451879517759;
+        stroke-dashoffset: 113.1491950038076;
       }
     }
 
@@ -174,7 +174,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >4784</text>
+      >4795</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -189,7 +189,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >392</text>
+      >393</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -204,7 +204,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs_merged"
-      >323</text>
+      >324</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
